@@ -1,0 +1,8 @@
+hooks:
+   AfterAllowTraffic:
+     - location: Scripts/RunResourceTests.sh
+       timeout: 3600
+     - location: Scripts/PostDeploy.sh
+       timeout: 3600
+     - location: docker run --rm --mount type=bind,source=$PWD,target=/scan registry.fortidevsec.forticloud.com/fdevsec_sast:latest
+       timeout: 3600

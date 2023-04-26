@@ -1,0 +1,22 @@
+version: v1
+
+id:
+  org: 8f7a0bc1-0cc8-4959-83ba-c3a14b929e39
+  app: 4d0de069-ba81-4fe1-b5dd-0155ee62bff7
+
+scanners:
+  - sast
+  - secret
+  - sca
+  - dast
+
+dast:
+  url: http://10.36.234.10/xvwa
+  fortipentest_scanner: false #true|false
+  full_scan: false #true|false
+
+resource:
+  serial_scan: false
+
+on_prem:
+  sec_ops_server: https://qa.fortidevsec.forticloud.com/

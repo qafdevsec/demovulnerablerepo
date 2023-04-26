@@ -1,0 +1,47 @@
+2021-11-22T17:28:38.877Z snyk-agent  info: logging enabled
+2021-11-22T17:28:38.715Z snyk-agent initialisation: startup: git:8c18b80.dirty travis:224
+2021-11-22T17:28:38.842Z snyk-agent initialisation: If you have any issues during this beta, please contact runtime@snyk.io
+2021-11-22T17:28:38.845Z snyk-agent initialisation: resolving "snyk-agent.properties" to an absolute path
+2021-11-22T17:28:38.845Z snyk-agent initialisation: trying: /home/automation/TestRepos/Spotbug/scala/scala-woof/build/snyk-java-runtime-agent/snyk-agent.properties
+2021-11-22T17:28:38.847Z snyk-agent initialisation: loading config from: /home/automation/TestRepos/Spotbug/scala/scala-woof/build/snyk-java-runtime-agent/snyk-agent.properties
+2021-11-22T17:28:38.876Z snyk-agent initialisation: switching logging to /home/automation/TestRepos/Spotbug/scala/scala-woof/build/snyk-java-runtime-agent/snyk-logs/agent-2021-11-22T22-58-38.876Z.log
+2021-11-22T17:28:39.066Z snyk-agent  warn: failed loading bundled snapshot, falling back to build-time snapshot
+java.lang.IllegalStateException: Range defies version ordering: [10.0.0.alpha1,jetty-10.0.0.beta3)
+	at io.snyk.agent.util.org.apache.maven.artifact.versioning.VersionRange.parseRestriction(VersionRange.java:193)
+	at io.snyk.agent.util.org.apache.maven.artifact.versioning.VersionRange.createFromVersionSpec(VersionRange.java:122)
+	at io.snyk.agent.filter.FilterList.lambda$loadBolosFrom$4(FilterList.java:100)
+	at java.util.HashMap.forEach(HashMap.java:1289)
+	at io.snyk.agent.filter.FilterList.loadBolosFrom(FilterList.java:71)
+	at io.snyk.agent.filter.FilterList.loadBuiltInBolos(FilterList.java:34)
+	at io.snyk.agent.jvm.EntryPoint.premain(EntryPoint.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:386)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+2021-11-22T17:28:39.123Z snyk-agent  info: loading config complete, projectId:4567901-2345-6789-0123-45678912345
+2021-11-22T17:28:39.154Z snyk-agent  info: reporting ready, but resting
+2021-11-22T17:28:40.154Z snyk-agent  warn: releasing agent as data refresh fetch timed out
+2021-11-22T17:28:40.155Z snyk-agent  info: attempting to set up a shutdown hook that drains events one last time
+2021-11-22T17:28:40.172Z snyk-agent  info: shutdown hook set up successfully
+2021-11-22T17:28:40.172Z snyk-agent  info: reporting started
+2021-11-22T17:28:40.172Z snyk-agent  info: initialisation: LandingZone being loaded by:
+2021-11-22T17:28:40.172Z snyk-agent  info: initialisation:  * java.lang.Thread.getStackTrace(Thread.java:1559)
+2021-11-22T17:28:40.172Z snyk-agent  info: initialisation:  * io.snyk.agent.jvm.LandingZone.<clinit>(LandingZone.java:16)
+2021-11-22T17:28:40.172Z snyk-agent  info: initialisation:  * io.snyk.agent.logic.ReportingWorker.run(ReportingWorker.java:93)
+2021-11-22T17:28:40.172Z snyk-agent  info: initialisation:  * java.lang.Thread.run(Thread.java:748)
+2021-11-22T17:28:40.640Z snyk-agent  warn: rewrite requested, but branching: com/fasterxml/jackson/databind/ObjectMapper#enableDefaultTyping
+2021-11-22T17:28:40.641Z snyk-agent  warn: rewrite requested, but branching: com/fasterxml/jackson/databind/ObjectMapper#enableDefaultTyping
+2021-11-22T17:28:40.641Z snyk-agent  info: rewrite: com/fasterxml/jackson/databind/ObjectMapper#enableDefaultTyping
+2021-11-22T17:28:41.063Z snyk-agent  info: successfully transmitted our first beacon
+2021-11-22T17:28:41.261Z snyk-agent  warn: agent update issue
+java.lang.IllegalStateException: Range defies version ordering: [10.0.0.alpha1,jetty-10.0.0.beta3)
+	at io.snyk.agent.util.org.apache.maven.artifact.versioning.VersionRange.parseRestriction(VersionRange.java:193)
+	at io.snyk.agent.util.org.apache.maven.artifact.versioning.VersionRange.createFromVersionSpec(VersionRange.java:122)
+	at io.snyk.agent.filter.FilterList.lambda$loadBolosFrom$4(FilterList.java:100)
+	at java.util.HashMap.forEach(HashMap.java:1289)
+	at io.snyk.agent.filter.FilterList.loadBolosFrom(FilterList.java:71)
+	at io.snyk.agent.logic.FilterUpdate.fetchUpdatedAnything(FilterUpdate.java:126)
+	at io.snyk.agent.logic.FilterUpdate.run(FilterUpdate.java:70)
+	at java.lang.Thread.run(Thread.java:748)

@@ -1,0 +1,99 @@
+{
+    "reportSchema": "1.1",
+    "scanInfo": {
+        "engineVersion": "5.3.0",
+        "dataSource": [{
+            "name": "NVD CVE Checked",
+            "timestamp": "2019-11-10T15:46:32"
+        }, {
+            "name": "NVD CVE Modified",
+            "timestamp": "2019-11-10T15:02:06"
+        }, {
+            "name": "VersionCheckOn",
+            "timestamp": "2019-11-10T15:46:32"
+        }]
+    },
+    "projectInfo": {
+        "name": "",
+        "reportDate": "2021-11-03T17:32:04.309Z",
+        "credits": {
+            "NVD": "This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov",
+            "NPM": "This report may contain data retrieved from the NPM Public Advisories: https://www.npmjs.com/advisories",
+            "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+        }
+    },
+    "dependencies": [{
+        "isVirtual": false,
+        "fileName": ".eslintrc.js",
+        "filePath": "\/scan\/.eslintrc.js",
+        "md5": "73c0f2cba049255202d49396dcadde6b",
+        "sha1": "c7e14940711faaf6b4c28eb2e4bd5094d51628ee",
+        "sha256": "e7b3a52e0e98b411aaef994621dbdd63b473fac7c34c733529885910fb701281",
+        "evidenceCollected": {
+            "vendorEvidence": [],
+            "productEvidence": [],
+            "versionEvidence": []
+        }
+    }, {
+        "isVirtual": false,
+        "fileName": "app.js",
+        "filePath": "\/scan\/docs\/js\/app.js",
+        "md5": "9bd20f843d91b4d98d5a905531e0f02b",
+        "sha1": "dc160e8a2ca7ba5511ada85ca4d3357eccc6e71a",
+        "sha256": "1b2ccac24dd38c64170bfe98c23002e00c1fb658ab4c27a7ce0271ff25e3d52b",
+        "evidenceCollected": {
+            "vendorEvidence": [],
+            "productEvidence": [],
+            "versionEvidence": []
+        }
+    }, {
+        "isVirtual": false,
+        "fileName": "rollup.config.js",
+        "filePath": "\/scan\/rollup.config.js",
+        "md5": "483402f0c84916c5df39f50b4f935f4c",
+        "sha1": "a096c3d32ae1931587e16d39e61c3d10d418afce",
+        "sha256": "02cc2a19d0288af0e96b4c0001a3db5cd1c75b86150955fa500b2c6e85963b79",
+        "evidenceCollected": {
+            "vendorEvidence": [],
+            "productEvidence": [],
+            "versionEvidence": []
+        }
+    }, {
+        "isVirtual": false,
+        "fileName": "signature_pad.umd.js",
+        "filePath": "\/scan\/docs\/js\/signature_pad.umd.js",
+        "md5": "ec253d3b2aca33e90430ce74d846fb10",
+        "sha1": "dfa92f8b38e54575100079d856d0949e06d0a3f3",
+        "sha256": "9fbf4707e531525f4c24983ae414465eecba0a5449c3e6f76645b646de9d6fa7",
+        "evidenceCollected": {
+            "vendorEvidence": [],
+            "productEvidence": [],
+            "versionEvidence": []
+        }
+    }, {
+        "isVirtual": false,
+        "fileName": "package.json",
+        "filePath": "\/scan\/package.json",
+        "md5": "622c259a895984273fb75af04ec90c63",
+        "sha1": "e36ab35cf0ac905b11f9a810d3b578efbd3c2336",
+        "sha256": "7cc1360a6f2c167e39d99f957ae469e847685901b587720c061b8167648c642c",
+        "evidenceCollected": {
+            "vendorEvidence": [],
+            "productEvidence": [],
+            "versionEvidence": []
+        }
+    }, {
+        "isVirtual": false,
+        "fileName": "prettier.config.js",
+        "filePath": "\/scan\/prettier.config.js",
+        "md5": "f5d931313c02a4d9f4a9931bda3ac405",
+        "sha1": "d286fe211f95e92b6b7f996236f7f509eda29e2c",
+        "sha256": "acf9422d69e0d072d6754b8f1ff474f27d34e2fd4e35dba7b50bd11b131a48f5",
+        "evidenceCollected": {
+            "vendorEvidence": [],
+            "productEvidence": [],
+            "versionEvidence": []
+        }
+    }]
+}

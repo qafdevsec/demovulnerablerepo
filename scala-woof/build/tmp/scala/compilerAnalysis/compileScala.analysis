@@ -1,0 +1,637 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main
+compile options:
+2 items
+0 -> -deprecation
+1 -> -unchecked
+javac options:
+9 items
+0 -> -source
+1 -> 1.8
+2 -> -target
+3 -> 1.8
+4 -> -d
+5 -> /home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main
+6 -> -g
+7 -> -proc:none
+8 -> -XDuseUnsharedTable=true
+compiler version:
+1 items
+0 -> 2.12.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+10 items
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/app/ZipHandler.class
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/cli/CliUnzip.class
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/JsonExceptionMapper.class
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/UnzipResource.class
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/WelcomeBanner.class
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/WoofApplication.class
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/WoofCheck.class
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/WoofConfig.class
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/WoofStartup$.class
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/WoofStartup.class
+binary dependencies:
+38 items
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.0.1-jre/bd41a290787b5301e63929676d792c507bbc00ae/guava-27.0.1-jre.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/net.lingala.zip4j/zip4j/1.3.2/4ba84e98ee017b74cb52f45962f929a221f3074c/zip4j-1.3.2.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.8/36b234834d8f842cdde963c8591efae6cf413e3f/scala-library-2.12.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.7/e6faad47abd3179666e89068485a1b88a195ceb7/jackson-databind-2.9.7.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-core/1.3.8/e0758ece53741860d773acb68a8d9db9ab4c6f55/dropwizard-core-1.3.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/net.sourceforge.argparse4j/argparse4j/0.8.1/2c8241f84acf6c924bd75be0dbd68e8d74fbcd70/argparse4j-0.8.1.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.7/dda059f4908e1b548b7ba68d81a3b05897f27cb0/httpclient-4.5.7.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.11/de748cf874e4e193b42eceea9fe5574fabb9d4df/httpcore-4.4.11.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.7/cc971b74052f1c949581e257c6580ef3662eac7a/httpmime-4.5.7.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.8/36b234834d8f842cdde963c8591efae6cf413e3f/scala-library-2.12.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jersey/1.3.8/82fc6f418d7ceb6672017c5f61ecc436e7f31782/dropwizard-jersey-1.3.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/104e9c2b5583cfcfeac0402316221648d6d8ea6b/javax.ws.rs-api-2.0.1.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.8/36b234834d8f842cdde963c8591efae6cf413e3f/scala-library-2.12.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/104e9c2b5583cfcfeac0402316221648d6d8ea6b/javax.ws.rs-api-2.0.1.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-multipart/2.25.1/1d2db0078ee1b740c4e7ec7413d328a8a7e1c480/jersey-media-multipart-2.25.1.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.8/36b234834d8f842cdde963c8591efae6cf413e3f/scala-library-2.12.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-lifecycle/1.3.8/3a38d81f5f6c383712814cdab4703ce391b6f561/dropwizard-lifecycle-1.3.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.11.v20180605/58353c2f27515b007fc83ae22002feb34fc24714/jetty-server-9.4.11.v20180605.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.8/36b234834d8f842cdde963c8591efae6cf413e3f/scala-library-2.12.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/com.datasift.dropwizard.scala/dropwizard-scala-core_2.12/1.3.7-1/5cd911c2063431277f320004b979161905c8cf97/dropwizard-scala-core_2.12-1.3.7-1.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-healthchecks/4.0.2/4474ff8903f780bd937ca74a02a7a77b31df0eed/metrics-healthchecks-4.0.2.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-assets/1.3.8/ce8d9001d2b01dde13519784eb35cf293e402f77/dropwizard-assets-1.3.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-core/1.3.8/e0758ece53741860d773acb68a8d9db9ab4c6f55/dropwizard-core-1.3.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-forms/1.3.8/8891c3e8d6ec6ab0f37e04562a08115f8116dc08/dropwizard-forms-1.3.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jersey/1.3.8/82fc6f418d7ceb6672017c5f61ecc436e7f31782/dropwizard-jersey-1.3.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-lifecycle/1.3.8/3a38d81f5f6c383712814cdab4703ce391b6f561/dropwizard-lifecycle-1.3.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.8/36b234834d8f842cdde963c8591efae6cf413e3f/scala-library-2.12.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-healthchecks/4.0.2/4474ff8903f780bd937ca74a02a7a77b31df0eed/metrics-healthchecks-4.0.2.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-core/1.3.8/e0758ece53741860d773acb68a8d9db9ab4c6f55/dropwizard-core-1.3.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/com.datasift.dropwizard.scala/dropwizard-scala-core_2.12/1.3.7-1/5cd911c2063431277f320004b979161905c8cf97/dropwizard-scala-core_2.12-1.3.7-1.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> /home/automation/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.8/36b234834d8f842cdde963c8591efae6cf413e3f/scala-library-2.12.8.jar
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+9 items
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> /home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+10 items
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> io.snyk.woof.app.ZipHandler
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> io.snyk.woof.cli.CliUnzip
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> io.snyk.woof.server.JsonExceptionMapper
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> io.snyk.woof.server.UnzipResource
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> io.snyk.woof.server.WelcomeBanner
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> io.snyk.woof.server.WoofApplication
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> io.snyk.woof.server.WoofCheck
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala -> io.snyk.woof.server.WoofConfig
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> io.snyk.woof.server.WoofStartup
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> io.snyk.woof.server.WoofStartup$
+used names:
+405 items
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> !=
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> +
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> <init>
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> <repeated...>
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> ?0
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> A
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Any
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> AnyRef
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Array
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> AsScala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> B
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Boolean
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> ByteStreams
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Class
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> ClassTag
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Collectors
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Decorators
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> File
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> FileAttribute
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> FileOutputStream
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Files
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Function1
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> InputStream
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Iterator
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> JavaConverters
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Long
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> MoreFiles
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Nothing
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Object
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> OutputStream
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Path
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Predef
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> PrintStream
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> RecursiveDeleteOption
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Stream
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> String
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> System
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> T
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> Unit
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> ZipFile
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> ZipHandler
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> _$7
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> app
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> apply
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> asScala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> asScalaIteratorConverter
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> close
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> collection
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> com
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> common
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> copy
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> core
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> createTempDirectory
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> createTempFile
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> delete
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> deleteRecursively
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> err
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> extractAll
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> file
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> getFileName
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> google
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> io
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> iterator
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> java
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> lang
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> lingala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> list
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> map
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> materializeClassTag
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> net
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> nio
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> os
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> p
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> package
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> println
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> reflect
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> snyk
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> stream
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> temp
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> tempDir
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> toAbsolutePath
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> toArray
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> toFile
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> toString
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> unary_!
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> util
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> woof
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> zip
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> zip4j
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> zipStream
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> !=
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> +
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> <init>
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> <repeated...>
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> ==
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Any
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> AnyRef
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Argument
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Array
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> ArrayOps
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Boolean
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Bootstrap
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Class
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> CliUnzip
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> CloseableHttpClient
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> CloseableHttpResponse
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Command
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Configuration
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> ContentBody
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> ContentType
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> DEFAULT_BINARY
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> File
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> FileBody
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Function1
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Header
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> HeaderElement
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> HttpClients
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> HttpEntity
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> HttpMultipartMode
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> HttpPost
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> HttpResponse
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> HttpUriRequest
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> IOException
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> InputStream
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Int
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> JsonNode
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> MultipartEntityBuilder
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Namespace
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Nothing
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> ObjectMapper
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Predef
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> PrintStream
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> StatusLine
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> String
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Subparser
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> System
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> T
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> U
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> Unit
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> addArgument
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> addPart
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> apache
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> argparse4j
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> build
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> builder
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> cli
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> client
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> close
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> com
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> content
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> contentTypeIsJson
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> create
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> createDefault
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> databind
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> dropwizard
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> element
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> entity
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> entries
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> entry
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> err
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> execute
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> fasterxml
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> file
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> foreach
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> get
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> getContent
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> getContentType
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> getElements
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> getEntity
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> getName
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> getStatusCode
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> getStatusLine
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> getString
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> has
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> http
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> impl
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> inf
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> io
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> jackson
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> java
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> lang
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> methods
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> mime
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> namespace
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> nargs
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> net
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> ofRef
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> org
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> out
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> path
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> post
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> println
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> readTree
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> readValue
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> refArrayOps
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> required
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> response
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> responseCode
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> root
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> run
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> setEntity
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> setMode
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> setup
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> showError
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> snyk
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> sourceforge
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> subparser
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> textValue
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> type
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> unary_!
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> woof
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> ||
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> <init>
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> APPLICATION_JSON_TYPE
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> Any
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> ErrorMessage
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> Exception
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> ExceptionMapper
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> Int
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> JsonExceptionMapper
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> MediaType
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> Object
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> Response
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> ResponseBuilder
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> Status
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> String
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> Unit
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> build
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> core
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> dropwizard
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> entity
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> errors
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> exception
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> ext
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> getStatusCode
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> io
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> javax
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> jersey
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> package
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> printStackTrace
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> rs
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> server
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> snyk
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> status
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> toString
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> type
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> woof
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> ws
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> <init>
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> AnyRef
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> Array
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> Consumes
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> FormDataParam
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> InputStream
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> MediaType
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> Object
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> POST
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> Path
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> Predef
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> Produces
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> String
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> UnzipResource
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> ZipHandler
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> app
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> core
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> data
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> glassfish
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> handler
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> io
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> java
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> javax
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> jersey
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> listTopLevelEntries
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> media
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> multipart
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> org
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> rs
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> server
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> snyk
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> util
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> woof
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> ws
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> +
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> <init>
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> Any
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> Int
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> InterruptedException
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> Long
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> Nothing
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> Object
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> PrintStream
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> Server
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> ServerLifecycleListener
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> String
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> System
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> Thread
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> Unit
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> WelcomeBanner
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> dropwizard
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> eclipse
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> getLocalPort
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> io
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> java
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> jetty
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> lang
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> lifecycle
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> org
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> out
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> package
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> println
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> server
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> serverStarted
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> sleep
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> snyk
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> woof
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> <init>
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> Any
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> Application
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> AssetsBundle
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> Bootstrap
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> Bundle
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> CliUnzip
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> Command
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> Environment
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> HealthCheck
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> HealthCheckRegistry
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> JerseyEnvironment
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> JsonExceptionMapper
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> LifecycleEnvironment
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> MultiPartBundle
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> ScalaApplication
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> ServerLifecycleListener
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> String
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> Unit
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> UnzipResource
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> WelcomeBanner
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> WoofApplication
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> WoofCheck
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> WoofConfig
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> ZipHandler
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> addBundle
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> addCommand
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> addServerLifecycleListener
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> app
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> assets
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> bootstrap
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> cli
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> com
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> datasift
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> dropwizard
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> environment
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> forms
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> healthChecks
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> io
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> jersey
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> lifecycle
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> register
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> server
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> setUrlPattern
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> setup
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> snyk
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> woof
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> <init>
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> HealthCheck
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> Result
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> WoofCheck
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> codahale
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> com
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> health
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> healthy
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> io
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> metrics
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> server
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> snyk
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> woof
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala -> <init>
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala -> Configuration
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala -> WoofConfig
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala -> dropwizard
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala -> io
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala -> server
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala -> snyk
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala -> woof
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> <init>
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> AnyRef
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> Array
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> Object
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> Predef
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> String
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> Unit
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> WoofApplication
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> WoofStartup
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> args
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> io
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> main
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> scala
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> server
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> snyk
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> woof
+product stamps:
+10 items
+/home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/app/ZipHandler.class -> lastModified(1637258756000)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/cli/CliUnzip.class -> lastModified(1637258756000)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/JsonExceptionMapper.class -> lastModified(1637258756000)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/UnzipResource.class -> lastModified(1637258756000)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/WelcomeBanner.class -> lastModified(1637258756000)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/WoofApplication.class -> lastModified(1637258756000)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/WoofCheck.class -> lastModified(1637258756000)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/WoofConfig.class -> lastModified(1637258756000)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/WoofStartup$.class -> lastModified(1637258756000)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/build/classes/scala/main/io/snyk/woof/server/WoofStartup.class -> lastModified(1637258756000)
+source stamps:
+9 items
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> hash(586d0eb1770ca97a19c64cdd86d9a9489f58e46a)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> hash(add1db5a92f9d0c8ada64d7c495cb2a673ca9b37)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> hash(90d5d1fed9edb8f843c96459f1ca1b8f38290ef5)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> hash(4de88e9450d990d9835bd15d67129a89d6af9aa5)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> hash(2be167fc083d9adf8596f4024051ba898f5e0d3e)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> hash(839a686e24fbc88a266610440e991ddf854d2708)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> hash(0f8337a6f565023e66dbf1471d39fcce14f313ec)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala -> hash(359ed8d928ff991148c7983e875d3d4471c78873)
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> hash(14a8c1d0d6acd426f77576b809f63889bd5f7cad)
+binary stamps:
+19 items
+/home/automation/.gradle/caches/modules-2/files-2.1/com.datasift.dropwizard.scala/dropwizard-scala-core_2.12/1.3.7-1/5cd911c2063431277f320004b979161905c8cf97/dropwizard-scala-core_2.12-1.3.7-1.jar -> lastModified(1637258716000)
+/home/automation/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.7/e6faad47abd3179666e89068485a1b88a195ceb7/jackson-databind-2.9.7.jar -> lastModified(1637258722000)
+/home/automation/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.0.1-jre/bd41a290787b5301e63929676d792c507bbc00ae/guava-27.0.1-jre.jar -> lastModified(1637258721000)
+/home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-healthchecks/4.0.2/4474ff8903f780bd937ca74a02a7a77b31df0eed/metrics-healthchecks-4.0.2.jar -> lastModified(1637258724000)
+/home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-assets/1.3.8/ce8d9001d2b01dde13519784eb35cf293e402f77/dropwizard-assets-1.3.8.jar -> lastModified(1637258719000)
+/home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-core/1.3.8/e0758ece53741860d773acb68a8d9db9ab4c6f55/dropwizard-core-1.3.8.jar -> lastModified(1637258719000)
+/home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-forms/1.3.8/8891c3e8d6ec6ab0f37e04562a08115f8116dc08/dropwizard-forms-1.3.8.jar -> lastModified(1637258719000)
+/home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jersey/1.3.8/82fc6f418d7ceb6672017c5f61ecc436e7f31782/dropwizard-jersey-1.3.8.jar -> lastModified(1637258719000)
+/home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-lifecycle/1.3.8/3a38d81f5f6c383712814cdab4703ce391b6f561/dropwizard-lifecycle-1.3.8.jar -> lastModified(1637258720000)
+/home/automation/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/104e9c2b5583cfcfeac0402316221648d6d8ea6b/javax.ws.rs-api-2.0.1.jar -> lastModified(1637258731000)
+/home/automation/.gradle/caches/modules-2/files-2.1/net.lingala.zip4j/zip4j/1.3.2/4ba84e98ee017b74cb52f45962f929a221f3074c/zip4j-1.3.2.jar -> lastModified(1637258719000)
+/home/automation/.gradle/caches/modules-2/files-2.1/net.sourceforge.argparse4j/argparse4j/0.8.1/2c8241f84acf6c924bd75be0dbd68e8d74fbcd70/argparse4j-0.8.1.jar -> lastModified(1637258724000)
+/home/automation/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.7/dda059f4908e1b548b7ba68d81a3b05897f27cb0/httpclient-4.5.7.jar -> lastModified(1637258722000)
+/home/automation/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.11/de748cf874e4e193b42eceea9fe5574fabb9d4df/httpcore-4.4.11.jar -> lastModified(1637258726000)
+/home/automation/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.7/cc971b74052f1c949581e257c6580ef3662eac7a/httpmime-4.5.7.jar -> lastModified(1637258722000)
+/home/automation/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.11.v20180605/58353c2f27515b007fc83ae22002feb34fc24714/jetty-server-9.4.11.v20180605.jar -> lastModified(1637258729000)
+/home/automation/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-multipart/2.25.1/1d2db0078ee1b740c4e7ec7413d328a8a7e1c480/jersey-media-multipart-2.25.1.jar -> lastModified(1637258724000)
+/home/automation/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.8/36b234834d8f842cdde963c8591efae6cf413e3f/scala-library-2.12.8.jar -> lastModified(1637258718000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1619005569000)
+class names:
+19 items
+/home/automation/.gradle/caches/modules-2/files-2.1/com.datasift.dropwizard.scala/dropwizard-scala-core_2.12/1.3.7-1/5cd911c2063431277f320004b979161905c8cf97/dropwizard-scala-core_2.12-1.3.7-1.jar -> com.datasift.dropwizard.scala.ScalaApplication
+/home/automation/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.7/e6faad47abd3179666e89068485a1b88a195ceb7/jackson-databind-2.9.7.jar -> com.fasterxml.jackson.databind.ObjectMapper
+/home/automation/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.0.1-jre/bd41a290787b5301e63929676d792c507bbc00ae/guava-27.0.1-jre.jar -> com.google.common.io.MoreFiles
+/home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-healthchecks/4.0.2/4474ff8903f780bd937ca74a02a7a77b31df0eed/metrics-healthchecks-4.0.2.jar -> com.codahale.metrics.health.HealthCheck
+/home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-assets/1.3.8/ce8d9001d2b01dde13519784eb35cf293e402f77/dropwizard-assets-1.3.8.jar -> io.dropwizard.assets.AssetsBundle
+/home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-core/1.3.8/e0758ece53741860d773acb68a8d9db9ab4c6f55/dropwizard-core-1.3.8.jar -> io.dropwizard.Configuration
+/home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-forms/1.3.8/8891c3e8d6ec6ab0f37e04562a08115f8116dc08/dropwizard-forms-1.3.8.jar -> io.dropwizard.forms.MultiPartBundle
+/home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jersey/1.3.8/82fc6f418d7ceb6672017c5f61ecc436e7f31782/dropwizard-jersey-1.3.8.jar -> io.dropwizard.jersey.setup.JerseyEnvironment
+/home/automation/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-lifecycle/1.3.8/3a38d81f5f6c383712814cdab4703ce391b6f561/dropwizard-lifecycle-1.3.8.jar -> io.dropwizard.lifecycle.ServerLifecycleListener
+/home/automation/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/104e9c2b5583cfcfeac0402316221648d6d8ea6b/javax.ws.rs-api-2.0.1.jar -> javax.ws.rs.Path
+/home/automation/.gradle/caches/modules-2/files-2.1/net.lingala.zip4j/zip4j/1.3.2/4ba84e98ee017b74cb52f45962f929a221f3074c/zip4j-1.3.2.jar -> net.lingala.zip4j.core.ZipFile
+/home/automation/.gradle/caches/modules-2/files-2.1/net.sourceforge.argparse4j/argparse4j/0.8.1/2c8241f84acf6c924bd75be0dbd68e8d74fbcd70/argparse4j-0.8.1.jar -> net.sourceforge.argparse4j.inf.Namespace
+/home/automation/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.7/dda059f4908e1b548b7ba68d81a3b05897f27cb0/httpclient-4.5.7.jar -> org.apache.http.impl.client.HttpClients
+/home/automation/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.11/de748cf874e4e193b42eceea9fe5574fabb9d4df/httpcore-4.4.11.jar -> org.apache.http.HttpResponse
+/home/automation/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.7/cc971b74052f1c949581e257c6580ef3662eac7a/httpmime-4.5.7.jar -> org.apache.http.entity.mime.MultipartEntityBuilder
+/home/automation/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.11.v20180605/58353c2f27515b007fc83ae22002feb34fc24714/jetty-server-9.4.11.v20180605.jar -> org.eclipse.jetty.server.Server
+/home/automation/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-multipart/2.25.1/1d2db0078ee1b740c4e7ec7413d328a8a7e1c480/jersey-media-multipart-2.25.1.jar -> org.glassfish.jersey.media.multipart.FormDataParam
+/home/automation/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.8/36b234834d8f842cdde963c8591efae6cf413e3f/scala-library-2.12.8.jar -> scala.Array
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+9 items
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwxLW52gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw7f4vBXQABm5vdGlmeXNxAH4ADPKmhq90AAR3YWl0c3EAfgAM13uXgnQADSRhc0luc3RhbmNlT2ZzcQB+AAzq1YfDdAAGZXF1YWxzc3EAfgAMwhDl6nQADGFzSW5zdGFuY2VPZnNxAH4ADPuUgll0AAxzeW5jaHJvbml6ZWRzcQB+AAysh4f0dAANJGlzSW5zdGFuY2VPZnNxAH4ADOfXJAl0AAlub3RpZnlBbGxzcQB+AAy5Z/MmdAAMaXNJbnN0YW5jZU9mc3EAfgAMRKCQHnQABjxpbml0PnNxAH4ADMUgqjp0ABNsaXN0VG9wTGV2ZWxFbnRyaWVzc3EAfgAMDVBr6HQAClppcEhhbmRsZXJzcQB+AAzMkc1SdAACPT1zcQB+AAz322VjdAAFY2xvbmVzcQB+AAy970lOdAAIdG9TdHJpbmdzcQB+AAzIbdfrdAACIT1zcQB+AAy80/FRdAAIZ2V0Q2xhc3NzcQB+AAwg+10tdAACbmVzcQB+AAwWF3M6dAACZXFzcQB+AAxRlJIWdAACIyNzcQB+AAw0GTNldAAIZmluYWxpemVzcQB+AAwmdfU6dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAbaW8uc255ay53b29mLmFwcC5aaXBIYW5kbGVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAMc2NhbGEubmF0aXZlc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFxzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQ0wACWluaGVyaXRlZHEAfgBDTAAHcGFyZW50c3EAfgBDeHEAfgBhc3EAfgBcdXEAfgA+AAAAAHNxAH4AXHVxAH4APgAAAABzcQB+AFx1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGB0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGBzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AHl0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHpzcQB+AG10AANBbnlzcQB+AHFzcQB+AHR1cQB+AHcAAAACc3EAfgB5dAAFc2NhbGFxAH4AgHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAEGlvLnNueWsud29vZi5hcHBzcQB+AIp0AAJpb3NxAH4AinQADGlvLnNueWsud29vZnNxAH4AinQAB2lvLnNueWtzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAX00OfxKdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQATC9ob21lL2F1dG9tYXRpb24vVGVzdFJlcG9zL1Nwb3RidWcvc2NhbGEvc2NhbGEtd29vZi9idWlsZC9jbGFzc2VzL3NjYWxhL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRYbQ6xdwypehnGTN2G2alIn1jkag==
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwlbUT+QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAac3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwXr323HQABm5vdGlmeXNxAH4ADDdgNqV0AAR3YWl0c3EAfgAMfDKRnnQADSRhc0luc3RhbmNlT2ZzcQB+AAw3Kk0ldAAGZXF1YWxzc3EAfgAM9OrzRXQADGFzSW5zdGFuY2VPZnNxAH4ADIrI+zN0AANydW5zcQB+AAwOBnHYdAAMc3luY2hyb25pemVkc3EAfgAM+7lqBXQADSRpc0luc3RhbmNlT2ZzcQB+AAxY5IvJdAAJY29uZmlndXJlc3EAfgAMWatADnQADmdldERlc2NyaXB0aW9uc3EAfgAMza9SmHQACW5vdGlmeUFsbHNxAH4ADBNyf1h0AAdnZXROYW1lc3EAfgAM7WY1cXQADGlzSW5zdGFuY2VPZnNxAH4ADAQfduF0AAY8aW5pdD5zcQB+AAxkIXVidAAHb25FcnJvcnNxAH4ADHa864B0AAI9PXNxAH4ADB9sfjl0AAVjbG9uZXNxAH4ADDpFukl0AAhDbGlVbnppcHNxAH4ADKE3Hup0AAh0b1N0cmluZ3NxAH4ADAmuyt10AAIhPXNxAH4ADPosSXJ0AAhnZXRDbGFzc3NxAH4ADGpW3yp0AAJuZXNxAH4ADFjH8RZ0AAJlcXNxAH4ADJjT6q90AAIjI3NxAH4ADJBfYeJ0AAhmaW5hbGl6ZXNxAH4ADAD3GPR0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABlpby5zbnlrLndvb2YuY2xpLkNsaVVuemlwdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAMc2NhbGEubmF0aXZlc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGRzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AS0wACWluaGVyaXRlZHEAfgBLTAAHcGFyZW50c3EAfgBLeHEAfgBpc3EAfgBkdXEAfgBGAAAAAHNxAH4AZHVxAH4ARgAAAABzcQB+AGR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAA3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGh0AAdDb21tYW5kc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBoc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAJpb3NxAH4AgXQACmRyb3B3aXphcmRzcQB+AIF0AANjbGlzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgnNxAH4AdXQABk9iamVjdHNxAH4AeXNxAH4AfHVxAH4AfwAAAANzcQB+AIF0AARqYXZhc3EAfgCBdAAEbGFuZ3EAfgCKc3EAfgB1dAADQW55c3EAfgB5c3EAfgB8dXEAfgB/AAAAAnNxAH4AgXQABXNjYWxhcQB+AIp1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAJpb3NxAH4AnXQADGlvLnNueWsud29vZnNxAH4AnXQAEGlvLnNueWsud29vZi5jbGlzcQB+AJ10AAdpby5zbnlrc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAF9NDn8SnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEwvaG9tZS9hdXRvbWF0aW9uL1Rlc3RSZXBvcy9TcG90YnVnL3NjYWxhL3NjYWxhLXdvb2YvYnVpbGQvY2xhc3Nlcy9zY2FsYS9tYWludAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUrdHbWpL50Mitpk18SVyypnPKmzc=
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw659r+AAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw5GWAxXQABm5vdGlmeXNxAH4ADMapriN0AAR3YWl0c3EAfgAMOPcp0HQADSRhc0luc3RhbmNlT2ZzcQB+AAw1nN0IdAAGZXF1YWxzc3EAfgAM+zQ0kXQADGFzSW5zdGFuY2VPZnNxAH4ADDuJAbJ0ABNKc29uRXhjZXB0aW9uTWFwcGVyc3EAfgAMPw+bFnQADHN5bmNocm9uaXplZHNxAH4ADEPltfF0AA0kaXNJbnN0YW5jZU9mc3EAfgAMTJG+fHQACW5vdGlmeUFsbHNxAH4ADM+noaZ0AAxpc0luc3RhbmNlT2ZzcQB+AAwE+PDedAAGPGluaXQ+c3EAfgAMLNYgOnQAAj09c3EAfgAMbwicEnQACnRvUmVzcG9uc2VzcQB+AAxJerFNdAAFY2xvbmVzcQB+AAy/SaB2dAAIdG9TdHJpbmdzcQB+AAzCLGqCdAACIT1zcQB+AAypfMiTdAAIZ2V0Q2xhc3NzcQB+AAyvQnKVdAACbmVzcQB+AAye8/VgdAACZXFzcQB+AAzO2nIodAACIyNzcQB+AAxreS6CdAAIZmluYWxpemVzcQB+AAzewuh2dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAnaW8uc255ay53b29mLnNlcnZlci5Kc29uRXhjZXB0aW9uTWFwcGVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAMc2NhbGEubmF0aXZlc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFxzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQ0wACWluaGVyaXRlZHEAfgBDTAAHcGFyZW50c3EAfgBDeHEAfgBhc3EAfgBcdXEAfgA+AAAAAHNxAH4AXHVxAH4APgAAAABzcQB+AFx1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAA3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGV0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBgc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4cQB+AG54cQB+AGB0AA9FeGNlcHRpb25NYXBwZXJzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGBzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAVzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABWphdmF4c3EAfgB8dAACd3NzcQB+AHx0AAJyc3NxAH4AfHQAA2V4dHNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB9dXEAfgBrAAAAAXNxAH4AcXQACUV4Y2VwdGlvbnNxAH4AdHNxAH4Ad3VxAH4AegAAAANzcQB+AHx0AARqYXZhc3EAfgB8dAAEbGFuZ3EAfgCHc3EAfgBxdAAGT2JqZWN0cQB+AItzcQB+AHF0AANBbnlzcQB+AHRzcQB+AHd1cQB+AHoAAAACc3EAfgB8dAAFc2NhbGFxAH4Ah3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAE2lvLnNueWsud29vZi5zZXJ2ZXJzcQB+AJ10AAJpb3NxAH4AnXQADGlvLnNueWsud29vZnNxAH4AnXQAB2lvLnNueWtzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAX00OfxKdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQATC9ob21lL2F1dG9tYXRpb24vVGVzdFJlcG9zL1Nwb3RidWcvc2NhbGEvc2NhbGEtd29vZi9idWlsZC9jbGFzc2VzL3NjYWxhL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSQ1dH+2e24+EPJZFnxyhuPOCkO9Q==
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwb3XIoQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAXc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwUSNRpXQABm5vdGlmeXNxAH4ADHURXid0AAR3YWl0c3EAfgAMsvvgwHQADSRhc0luc3RhbmNlT2ZzcQB+AAzQ51a1dAAGZXF1YWxzc3EAfgAMEwk113QADGFzSW5zdGFuY2VPZnNxAH4ADH6pXPx0AAV1bnppcHNxAH4ADPrMIf10AAxzeW5jaHJvbml6ZWRzcQB+AAy9QrHEdAANVW56aXBSZXNvdXJjZXNxAH4ADIaRh7d0AA0kaXNJbnN0YW5jZU9mc3EAfgAMx9C+XXQACW5vdGlmeUFsbHNxAH4ADPoaOmp0AAxpc0luc3RhbmNlT2ZzcQB+AAzGasA2dAAGPGluaXQ+c3EAfgAMuWLhZXQAAj09c3EAfgAMQu55bnQABWNsb25lc3EAfgAMikx/wnQACHRvU3RyaW5nc3EAfgAMs5VyI3QAAiE9c3EAfgAMKJ5uHHQACGdldENsYXNzc3EAfgAMu/F1qHQAAm5lc3EAfgAMhuB06nQAB2hhbmRsZXJzcQB+AAzxcnhKdAACZXFzcQB+AAyZvI6ZdAACIyNzcQB+AAy5E5sHdAAIZmluYWxpemVzcQB+AAwNHMX2dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBFeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Bbm5vdGF0aW9u3g6BovZcCrICAAJbAAlhcmd1bWVudHN0AB9bTHhzYnRpL2FwaS9Bbm5vdGF0aW9uQXJndW1lbnQ7TAAEYmFzZXQAEEx4c2J0aS9hcGkvVHlwZTt4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgANTAAFdmFsdWVxAH4ADXhwdAAFdmFsdWV0AAcidW56aXAic3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHQABFBhdGhzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF5zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABWphdmF4c3EAfgBqdAACd3NzcQB+AGp0AAJyc3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBrc3EAfgBSdXEAfgBWAAAAAXNxAH4AWHEAfgBadAAUWyJhcHBsaWNhdGlvbi9qc29uIl1zcQB+AFx0AAhQcm9kdWNlc3EAfgBkc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAhaW8uc255ay53b29mLnNlcnZlci5VbnppcFJlc291cmNldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAADdAAQamF2YXgud3MucnMuUE9TVHQAFGphdmF4LndzLnJzLkNvbnN1bWVzdAAMc2NhbGEubmF0aXZlc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cQB+AF5zcQB+AIhzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ARUwACWluaGVyaXRlZHEAfgBFTAAHcGFyZW50c3EAfgBFeHEAfgBfc3EAfgCIdXEAfgBAAAAAAHNxAH4AiHVxAH4AQAAAAABzcQB+AIh1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNxAH4AXHQABk9iamVjdHNxAH4AYnNxAH4AZXVxAH4AaAAAAANzcQB+AGp0AARqYXZhc3EAfgBqdAAEbGFuZ3EAfgBzc3EAfgBcdAADQW55c3EAfgBic3EAfgBldXEAfgBoAAAAAnNxAH4AanQABXNjYWxhcQB+AHN1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABNpby5zbnlrLndvb2Yuc2VydmVyc3EAfgCpdAACaW9zcQB+AKl0AAxpby5zbnlrLndvb2ZzcQB+AKl0AAdpby5zbnlrc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAF9NDn8SnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEwvaG9tZS9hdXRvbWF0aW9uL1Rlc3RSZXBvcy9TcG90YnVnL3NjYWxhL3NjYWxhLXdvb2YvYnVpbGQvY2xhc3Nlcy9zY2FsYS9tYWludAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUTeiOlFDZkNmDW9FdZxKaidavmqU=
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwyco6uQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAYc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwpJ5Gj3QABm5vdGlmeXNxAH4ADEpJY5l0AAR3YWl0c3EAfgAMOU2NJXQADSRhc0luc3RhbmNlT2ZzcQB+AAxD4SFudAAMZ2V0TG9jYWxQb3J0c3EAfgAMRKtrW3QABmVxdWFsc3NxAH4ADJD8BlJ0AAxhc0luc3RhbmNlT2ZzcQB+AAyeE0F6dAAMc3luY2hyb25pemVkc3EAfgAMXWuMG3QADSRpc0luc3RhbmNlT2ZzcQB+AAxUJw3AdAAJbm90aWZ5QWxsc3EAfgAMroujFnQADGlzSW5zdGFuY2VPZnNxAH4ADPMkE4x0AAY8aW5pdD5zcQB+AAw6X6oXdAANV2VsY29tZUJhbm5lcnNxAH4ADA3F3Ml0AAI9PXNxAH4ADJpKS/h0AAVjbG9uZXNxAH4ADJkZk7h0AA1zZXJ2ZXJTdGFydGVkc3EAfgAMERfsbnQACHRvU3RyaW5nc3EAfgAMjsjX3XQAAiE9c3EAfgAM5m1hCXQACGdldENsYXNzc3EAfgAMEV1sj3QAAm5lc3EAfgAMLb1rznQADGdldEFkbWluUG9ydHNxAH4ADEQu0/B0AAJlcXNxAH4ADMhqzLl0AAIjI3NxAH4ADOk/4od0AAhmaW5hbGl6ZXNxAH4ADEfO8Up0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ACFpby5zbnlrLndvb2Yuc2VydmVyLldlbGNvbWVCYW5uZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0AAxzY2FsYS5uYXRpdmVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AYHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGVzcQB+AGB1cQB+AEIAAAAAc3EAfgBgdXEAfgBCAAAAAHNxAH4AYHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AZHQAF1NlcnZlckxpZmVjeWNsZUxpc3RlbmVyc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBkc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAJpb3NxAH4AfXQACmRyb3B3aXphcmRzcQB+AH10AAlsaWZlY3ljbGVzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AfnNxAH4AcXQADUV2ZW50TGlzdGVuZXJzcQB+AHVzcQB+AHh1cQB+AHsAAAADc3EAfgB9dAAEamF2YXNxAH4AfXQABHV0aWxxAH4AhnNxAH4AcXQABk9iamVjdHNxAH4AdXNxAH4AeHVxAH4AewAAAANzcQB+AH1xAH4AjXNxAH4AfXQABGxhbmdxAH4AhnNxAH4AcXQAA0FueXNxAH4AdXNxAH4AeHVxAH4AewAAAAJzcQB+AH10AAVzY2FsYXEAfgCGdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAARzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAATaW8uc255ay53b29mLnNlcnZlcnNxAH4AoXQAAmlvc3EAfgChdAAMaW8uc255ay53b29mc3EAfgChdAAHaW8uc255a3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABfTQ5/Ep1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABML2hvbWUvYXV0b21hdGlvbi9UZXN0UmVwb3MvU3BvdGJ1Zy9zY2FsYS9zY2FsYS13b29mL2J1aWxkL2NsYXNzZXMvc2NhbGEvbWFpbnQAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFCvhZ/wIPZrfhZb0AkBRuomPXg0+
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwawjHjAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAgc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcAEjOHQADG9uRmF0YWxFcnJvcnNxAH4ADPGet3d0AAZub3RpZnlzcQB+AAz9AfMSdAAVZ2V0Q29uZmlndXJhdGlvbkNsYXNzc3EAfgAMeIQk3XQABHdhaXRzcQB+AAwLLsfndAANJGFzSW5zdGFuY2VPZnNxAH4ADMwWCNR0AAZlcXVhbHNzcQB+AAxU34LcdAAMYXNJbnN0YW5jZU9mc3EAfgAM0ZqFE3QAA3J1bnNxAH4ADIYN2U50AAxzeW5jaHJvbml6ZWRzcQB+AAzLrWg8dAANJGlzSW5zdGFuY2VPZnNxAH4ADPfPue90AARtYWluc3EAfgAMp8kJ9XQACW5vdGlmeUFsbHNxAH4ADA/pQAV0AA9Xb29mQXBwbGljYXRpb25zcQB+AAzrOgH6dAAHZ2V0TmFtZXNxAH4ADEbfQJh0AAppbml0aWFsaXplc3EAfgAMIuVHh3QADGlzSW5zdGFuY2VPZnNxAH4ADEhV1Wt0AAY8aW5pdD5zcQB+AAxd6GxgdAACPT1zcQB+AAy5AhL3dAAFY2xvbmVzcQB+AAxkSyVvdAAGJGluaXQkc3EAfgAMdiXSx3QACHRvU3RyaW5nc3EAfgAMZHN/cnQAEGJvb3RzdHJhcExvZ2dpbmdzcQB+AAxY4vlPdAACIT1zcQB+AAw7N/5DdAAIZ2V0Q2xhc3NzcQB+AAwqwcdgdAARYm9vdHN0cmFwTG9nTGV2ZWxzcQB+AAzi9F81dAACbmVzcQB+AAxvXjzodAAEaW5pdHNxAH4ADE6/tmR0ABJhZGREZWZhdWx0Q29tbWFuZHNzcQB+AAx7q2SqdAACZXFzcQB+AAzvCyuGdAACIyNzcQB+AAw1Hd1ddAAIZmluYWxpemVzcQB+AAyw0n40dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBXeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAjaW8uc255ay53b29mLnNlcnZlci5Xb29mQXBwbGljYXRpb251cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAJ0AA9zY2FsYS50cmFuc2llbnR0AAxzY2FsYS5uYXRpdmVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AcXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBXTAAJaW5oZXJpdGVkcQB+AFdMAAdwYXJlbnRzcQB+AFd4cQB+AHZzcQB+AHF1cQB+AFIAAAAAc3EAfgBxdXEAfgBSAAAAAHNxAH4AcXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AHVzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXhxAH4Ag3hxAH4AdXQAEFNjYWxhQXBwbGljYXRpb25zcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAVzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAA2NvbXNxAH4AkXQACGRhdGFzaWZ0c3EAfgCRdAAKZHJvcHdpemFyZHNxAH4AkXQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJJ1cQB+AIAAAAABc3EAfgCGdAAKV29vZkNvbmZpZ3NxAH4AiXNxAH4AjHVxAH4AjwAAAAVzcQB+AJF0AAJpb3NxAH4AkXQABHNueWtzcQB+AJF0AAR3b29mc3EAfgCRdAAGc2VydmVycQB+AJxzcQB+AIJzcQB+AIZ0AAtBcHBsaWNhdGlvbnNxAH4AiXNxAH4AjHVxAH4AjwAAAANzcQB+AJF0AAJpb3NxAH4AkXQACmRyb3B3aXphcmRxAH4AnHVxAH4AgAAAAAFxAH4AnnNxAH4AhnQABk9iamVjdHNxAH4AiXNxAH4AjHVxAH4AjwAAAANzcQB+AJF0AARqYXZhc3EAfgCRdAAEbGFuZ3EAfgCcc3EAfgCGdAADQW55c3EAfgCJc3EAfgCMdXEAfgCPAAAAAnNxAH4AkXEAfgCacQB+AJx1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABNpby5zbnlrLndvb2Yuc2VydmVyc3EAfgDHdAACaW9zcQB+AMd0AAxpby5zbnlrLndvb2ZzcQB+AMd0AAdpby5zbnlrc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAF9NDn8SnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEwvaG9tZS9hdXRvbWF0aW9uL1Rlc3RSZXBvcy9TcG90YnVnL3NjYWxhL3NjYWxhLXdvb2YvYnVpbGQvY2xhc3Nlcy9zY2FsYS9tYWludAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUg5pobiT7yIomZhBEDpkd34VNJwg=
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwL67xiwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAXc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwMUHTTHQABm5vdGlmeXNxAH4ADONPZ9N0AAdleGVjdXRlc3EAfgAMuYrry3QABHdhaXRzcQB+AAzwjiz1dAANJGFzSW5zdGFuY2VPZnNxAH4ADJDAMf90AAZlcXVhbHNzcQB+AAyPAAILdAAMYXNJbnN0YW5jZU9mc3EAfgAMCD6kM3QADHN5bmNocm9uaXplZHNxAH4ADCZ56VR0AA0kaXNJbnN0YW5jZU9mc3EAfgAMgcpdrnQACW5vdGlmeUFsbHNxAH4ADHBvtqJ0AAxpc0luc3RhbmNlT2ZzcQB+AAw1WavCdAAGPGluaXQ+c3EAfgAMFitqiXQABWNoZWNrc3EAfgAMcBYQ+nQAAj09c3EAfgAMe0NUT3QABWNsb25lc3EAfgAM0cTRfnQACHRvU3RyaW5nc3EAfgAMAkX0znQAAiE9c3EAfgAME5u0L3QACVdvb2ZDaGVja3NxAH4ADERMsXB0AAhnZXRDbGFzc3NxAH4ADEmt6g10AAJuZXNxAH4ADErY2pV0AAJlcXNxAH4ADBnWX2N0AAIjI3NxAH4ADCSRXRF0AAhmaW5hbGl6ZXNxAH4ADGlUhDV0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0AB1pby5zbnlrLndvb2Yuc2VydmVyLldvb2ZDaGVja3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLm5hdGl2ZXNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEVMAAlpbmhlcml0ZWRxAH4ARUwAB3BhcmVudHNxAH4ARXhxAH4AY3NxAH4AXnVxAH4AQAAAAABzcQB+AF51cQB+AEAAAAAAc3EAfgBedXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBidAALSGVhbHRoQ2hlY2tzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGJzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAVzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAA2NvbXNxAH4Ae3QACGNvZGFoYWxlc3EAfgB7dAAHbWV0cmljc3NxAH4Ae3QABmhlYWx0aHNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB8c3EAfgBvdAAGT2JqZWN0c3EAfgBzc3EAfgB2dXEAfgB5AAAAA3NxAH4Ae3QABGphdmFzcQB+AHt0AARsYW5ncQB+AIZzcQB+AG90AANBbnlzcQB+AHNzcQB+AHZ1cQB+AHkAAAACc3EAfgB7dAAFc2NhbGFxAH4AhnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAE2lvLnNueWsud29vZi5zZXJ2ZXJzcQB+AJl0AAJpb3NxAH4AmXQADGlvLnNueWsud29vZnNxAH4AmXQAB2lvLnNueWtzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAX00OfxKdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQATC9ob21lL2F1dG9tYXRpb24vVGVzdFJlcG9zL1Nwb3RidWcvc2NhbGEvc2NhbGEtd29vZi9idWlsZC9jbGFzc2VzL3NjYWxhL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQPgzem9WUCPmbb8UcdOfzOFPMT7A==
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwsrKbjwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAbc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwfxq1QHQABm5vdGlmeXNxAH4ADLY0l5p0ABBnZXRTZXJ2ZXJGYWN0b3J5c3EAfgAMnFok93QABHdhaXRzcQB+AAwQaXI8dAARc2V0TWV0cmljc0ZhY3RvcnlzcQB+AAxed0aKdAANJGFzSW5zdGFuY2VPZnNxAH4ADCc4YdN0ABFnZXRMb2dnaW5nRmFjdG9yeXNxAH4ADO7Yal90ABFzZXRMb2dnaW5nRmFjdG9yeXNxAH4ADLfRrWd0AAZlcXVhbHNzcQB+AAzu10B5dAARZ2V0TWV0cmljc0ZhY3RvcnlzcQB+AAwxLZnUdAAMYXNJbnN0YW5jZU9mc3EAfgAMo5STxnQADHN5bmNocm9uaXplZHNxAH4ADPHeus10AA0kaXNJbnN0YW5jZU9mc3EAfgAMyd+xtXQACldvb2ZDb25maWdzcQB+AAzGqdEodAAJbm90aWZ5QWxsc3EAfgAM8pt8gXQADGlzSW5zdGFuY2VPZnNxAH4ADKcirXt0AAY8aW5pdD5zcQB+AAwg7tZkdAACPT1zcQB+AAzkRdJjdAAFY2xvbmVzcQB+AAzjvJ83dAAIdG9TdHJpbmdzcQB+AAyQ4oH8dAACIT1zcQB+AAziZw7KdAAQc2V0U2VydmVyRmFjdG9yeXNxAH4ADFV0y390AAhnZXRDbGFzc3NxAH4ADNHWGit0AAJuZXNxAH4ADD+d6xJ0AAJlcXNxAH4ADOUq/Ft0AAIjI3NxAH4ADL7HwWd0AAhmaW5hbGl6ZXNxAH4ADOVVuMl0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AE14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0AB5pby5zbnlrLndvb2Yuc2VydmVyLldvb2ZDb25maWd1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAJ0AC1jb20uZmFzdGVyeG1sLmphY2tzb24uYW5ub3RhdGlvbi5Kc29uUHJvcGVydHl0AAxzY2FsYS5uYXRpdmVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AZ3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBNTAAJaW5oZXJpdGVkcQB+AE1MAAdwYXJlbnRzcQB+AE14cQB+AGxzcQB+AGd1cQB+AEgAAAAAc3EAfgBndXEAfgBIAAAAAHNxAH4AZ3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Aa3QADUNvbmZpZ3VyYXRpb25zcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGtzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAAmlvc3EAfgCEdAAKZHJvcHdpemFyZHNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCFc3EAfgB4dAAGT2JqZWN0c3EAfgB8c3EAfgB/dXEAfgCCAAAAA3NxAH4AhHQABGphdmFzcQB+AIR0AARsYW5ncQB+AItzcQB+AHh0AANBbnlzcQB+AHxzcQB+AH91cQB+AIIAAAACc3EAfgCEdAAFc2NhbGFxAH4Ai3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAE2lvLnNueWsud29vZi5zZXJ2ZXJzcQB+AJ50AAJpb3NxAH4AnnQADGlvLnNueWsud29vZnNxAH4AnnQAB2lvLnNueWtzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAX00OfxKdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQATC9ob21lL2F1dG9tYXRpb24vVGVzdFJlcG9zL1Nwb3RidWcvc2NhbGEvc2NhbGEtd29vZi9idWlsZC9jbGFzc2VzL3NjYWxhL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ1ntjZKP+ZEUjHmD6HXT1EcceIcw==
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwRRmwfQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw4CFAe3QABm5vdGlmeXNxAH4ADAjnwsV0AAR3YWl0c3EAfgAMdswDQXQADSRhc0luc3RhbmNlT2ZzcQB+AAyeZm16dAAGZXF1YWxzc3EAfgAMaMXhkXQADGFzSW5zdGFuY2VPZnNxAH4ADGBi41Z0AAxzeW5jaHJvbml6ZWRzcQB+AAw636JxdAANJGlzSW5zdGFuY2VPZnNxAH4ADNnyc3R0AARtYWluc3EAfgAMMPEbOHQACW5vdGlmeUFsbHNxAH4ADP1DMb10AAxpc0luc3RhbmNlT2ZzcQB+AAyiDcyXdAACPT1zcQB+AAySNkYTdAAFY2xvbmVzcQB+AAzLltfMdAAIdG9TdHJpbmdzcQB+AAzQ7i2/dAACIT1zcQB+AAyDiEg9dAAIZ2V0Q2xhc3NzcQB+AAxUzkSIdAACbmVzcQB+AAzNd/CfdAACZXFzcQB+AAz5rfwkdAACIyNzcQB+AAzl5BpBdAAIZmluYWxpemVzcQB+AAxzapskdAAIaGFzaENvZGVzcQB+AAxqD4UKdAALV29vZlN0YXJ0dXBzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAfaW8uc255ay53b29mLnNlcnZlci5Xb29mU3RhcnR1cHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0AAxzY2FsYS5uYXRpdmVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AF9zcQB+AFp1cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+AGd4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgANTAAFdmFsdWVxAH4ADXhwdAAAdAAvKHNjYWxhLnRoaXMudGhyb3dzLjxpbml0PiRkZWZhdWx0JDFbRXhjZXB0aW9uXSlzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBldAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AXnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHEAfgB1eHEAfgBedAAGdGhyb3dzc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBec3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCEdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHh0AAlFeGNlcHRpb25zcQB+AHtzcQB+AH51cQB+AIEAAAADc3EAfgCDdAAEamF2YXNxAH4Ag3QABGxhbmdxAH4AiHNxAH4ATgBxAH4AHXVxAH4AUQAAAABzcQB+AHh0AARVbml0cQB+AH11cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBneHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBUdAAFUGxhaW50AARhcmdzc3EAfgB0c3EAfgB4dAAFQXJyYXlxAH4AfXVxAH4AiQAAAAFzcQB+AHh0AAZTdHJpbmdxAH4AjXNxAH4AWnVxAH4APAAAAABzcQB+AFp1cQB+AIkAAAACc3EAfgB4dAAGT2JqZWN0cQB+AI1zcQB+AHh0AANBbnlxAH4AfXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAE2lvLnNueWsud29vZi5zZXJ2ZXJzcQB+ALZ0AAJpb3NxAH4AtnQADGlvLnNueWsud29vZnNxAH4AtnQAB2lvLnNueWtzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAX00OfxKdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQATC9ob21lL2F1dG9tYXRpb24vVGVzdFJlcG9zL1Nwb3RidWcvc2NhbGEvc2NhbGEtd29vZi9idWlsZC9jbGFzc2VzL3NjYWxhL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQUqMHQ1qzUJvd1drgJ9jiJvV98rQ==
+external apis:
+0 items
+source infos:
+9 items
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/app/ZipHandler.scala -> 
+AAAAAAAAAAA=
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/cli/CliUnzip.scala -> 
+AAAAAQAAAQAAAB4ACSAgICB0cnkgewEAAAQWAQAAAAQBAAQgICAgAQBiL2hvbWUvYXV0b21hdGlvbi9UZXN0UmVwb3MvU3BvdGJ1Zy9zY2FsYS9zY2FsYS13b29mL3NyYy9tYWluL3NjYWxhL2lvL3NueWsvd29vZi9jbGkvQ2xpVW56aXAuc2NhbGEBAGIvaG9tZS9hdXRvbWF0aW9uL1Rlc3RSZXBvcy9TcG90YnVnL3NjYWxhL3NjYWxhLXdvb2Yvc3JjL21haW4vc2NhbGEvaW8vc255ay93b29mL2NsaS9DbGlVbnppcC5zY2FsYQBpQSB0cnkgd2l0aG91dCBhIGNhdGNoIG9yIGZpbmFsbHkgaXMgZXF1aXZhbGVudCB0byBwdXR0aW5nIGl0cyBib2R5IGluIGEgYmxvY2s7IG5vIGV4Y2VwdGlvbnMgYXJlIGhhbmRsZWQuAQAAAAA=
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/JsonExceptionMapper.scala -> 
+AAAAAAAAAAA=
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/UnzipResource.scala -> 
+AAAAAAAAAAA=
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WelcomeBanner.scala -> 
+AAAAAAAAAAA=
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofApplication.scala -> 
+AAAAAAAAAAA=
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofCheck.scala -> 
+AAAAAAAAAAA=
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofConfig.scala -> 
+AAAAAAAAAAA=
+/home/automation/TestRepos/Spotbug/scala/scala-woof/src/main/scala/io/snyk/woof/server/WoofStartup.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABfTQ5/Ep1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9ob21lL2F1dG9tYXRpb24vVGVzdFJlcG9zL1Nwb3RidWcvc2NhbGEvc2NhbGEtd29vZi9idWlsZC9jbGFzc2VzL3NjYWxhL21haW50AAEv

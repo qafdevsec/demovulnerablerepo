@@ -1,0 +1,65 @@
+{
+    "reportSchema": "1.1",
+    "scanInfo": {
+        "engineVersion": "5.3.0",
+        "dataSource": [{
+            "name": "NVD CVE Checked",
+            "timestamp": "2019-11-10T15:46:32"
+        }, {
+            "name": "NVD CVE Modified",
+            "timestamp": "2019-11-10T15:02:06"
+        }, {
+            "name": "VersionCheckOn",
+            "timestamp": "2019-11-10T15:46:32"
+        }]
+    },
+    "projectInfo": {
+        "name": "",
+        "reportDate": "2021-11-01T17:05:50.869Z",
+        "credits": {
+            "NVD": "This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov",
+            "NPM": "This report may contain data retrieved from the NPM Public Advisories: https://www.npmjs.com/advisories",
+            "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+        }
+    },
+    "dependencies": [{
+        "isVirtual": false,
+        "fileName": "cookie.js",
+        "filePath": "\/scan\/bad\/payloads\/cookie.js",
+        "md5": "061f559bafe80f1149dfb4038dc2a803",
+        "sha1": "994dadc682b04f625d016ad68eefb36bc7155f60",
+        "sha256": "7c581a2ea8ba456b595b63943bc3c659e16a607b5d8a5745fc9e24bb91d9e492",
+        "relatedDependencies": [{
+            "isVirtual": false,
+            "filePath": "\/scan\/good\/payloads\/cookie.js",
+            "sha256": "7c581a2ea8ba456b595b63943bc3c659e16a607b5d8a5745fc9e24bb91d9e492",
+            "sha1": "994dadc682b04f625d016ad68eefb36bc7155f60",
+            "md5": "061f559bafe80f1149dfb4038dc2a803"
+        }],
+        "evidenceCollected": {
+            "vendorEvidence": [],
+            "productEvidence": [],
+            "versionEvidence": []
+        }
+    }, {
+        "isVirtual": false,
+        "fileName": "keylogger.js",
+        "filePath": "\/scan\/good\/payloads\/keylogger.js",
+        "md5": "060f77bee1963c80da5d0fa9aa42c677",
+        "sha1": "f55a48c8b7ec93692da6e753866b66b02a912213",
+        "sha256": "d6229a66660eb50fcb2dd88f9f2e1222824807b9e23a829f8f6fa0c67d5e2eb9",
+        "relatedDependencies": [{
+            "isVirtual": false,
+            "filePath": "\/scan\/bad\/payloads\/keylogger.js",
+            "sha256": "d6229a66660eb50fcb2dd88f9f2e1222824807b9e23a829f8f6fa0c67d5e2eb9",
+            "sha1": "f55a48c8b7ec93692da6e753866b66b02a912213",
+            "md5": "060f77bee1963c80da5d0fa9aa42c677"
+        }],
+        "evidenceCollected": {
+            "vendorEvidence": [],
+            "productEvidence": [],
+            "versionEvidence": []
+        }
+    }]
+}

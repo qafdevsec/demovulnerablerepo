@@ -1,0 +1,39 @@
+version: v1
+
+buildtool:
+  - name: jenkins
+    path: /somepath
+
+id:
+  org: c20afef8-2992-48b7-8063-f6e76dee8c92
+  app: b85b9869-9508-4250-b045-b009219a0a30
+
+# Optional parameters.
+scanners:
+  - sast
+  - secret
+  - sca
+
+exclude_path:
+  - /one
+  - /two
+
+dast:
+  url: http://10.36.234.10/xvwa/
+  fortipentest_scanner: true #true|false
+  login_url: https://your.url.com/login
+  login_body: https://your.url.com/login-body
+  username: hello
+  password: hi
+  full_scan: true #true|false
+
+resource:
+  allowed_cpus: [0,]
+  serial_scan: false
+  max_cpu: 0
+  max_mem: 0
+  max_files: 0
+  max_loc: 0
+
+on_prem:
+  sec_ops_server: https://qa.fortidevsec.forticloud.com/
